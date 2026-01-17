@@ -7,7 +7,7 @@ from openpyxl.styles import PatternFill
 # --- 1. 用户自定义参数区 ---
 # ============================================================
 
-INPUT_PATH = r"C:\Users\Takumi\Desktop\临时文件\protein_galaxy\rsa_ph4.0_less.csv"
+INPUT_PATH = r"rsa_ph4.0_less.csv"
 OUTPUT_PATH = r"rsa_ph4.0_less_Analysis.xlsx"
 SHEET_NAME = 0
 
