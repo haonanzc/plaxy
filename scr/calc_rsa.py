@@ -23,7 +23,7 @@ except ImportError as e:
 # ================= 用户自定义参数 (CONFIG) =================
 
 # 1. 输入与输出设置
-METADATA_FILE = "/Users/zhanghaonan/Documents/ML/plaxy/data/uniprotkb_taxonomy_id_2188_Methanococcus voltae_40c.tsv"
+METADATA_FILE = "uniprotkb_taxonomy_id_2188_Methanococcus voltae_40c.tsv"
 OUTPUT_CSV = "rsa_Methanococcus voltae_40c.tsv"
 
 # --- [新增] 失败 ID 清单文件 (纯 ID，一行一个，方便后续放入预测软件) ---
@@ -389,5 +389,6 @@ if __name__ == "__main__":
             finally:
                 if tmp_pdb and os.path.exists(tmp_pdb): os.remove(tmp_pdb)
                 if tmp_pqr and os.path.exists(tmp_pqr): os.remove(tmp_pqr)
+
 
     print("\n完成！")
